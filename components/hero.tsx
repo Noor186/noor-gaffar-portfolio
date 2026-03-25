@@ -126,8 +126,8 @@ export function Hero() {
               </div>
               
               {/* Data Engineer badge */}
-              <div className="absolute top-8 -left-4 bg-card border border-border px-4 py-2 rounded-xl shadow-lg animate-float" style={{ animationDelay: '0.5s' }}>
-                <p className="text-xs font-semibold text-primary">Data Engineer</p>
+              <div className="absolute top-12 -left-2 bg-card/95 backdrop-blur-sm border border-border/50 px-3 py-1.5 rounded-lg shadow-md animate-float" style={{ animationDelay: '0.5s' }}>
+                <p className="text-xs font-bold text-primary">Data Engineer</p>
               </div>
               
               {/* Decorative elements */}
