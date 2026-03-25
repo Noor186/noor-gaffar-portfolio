@@ -1,14 +1,13 @@
 import type { Metadata } from 'next'
-import { Geist, Geist_Mono } from 'next/font/google'
+import { Inter } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
-const _geist = Geist({ subsets: ["latin"] });
-const _geistMono = Geist_Mono({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
+  title: 'Noor Gaffar | Data Engineer',
+  description: 'Portfolio of Noor Gaffar - Data Engineer specializing in IoT, Python, and Data Pipelines',
   generator: 'v0.app',
   icons: {
     icon: [
@@ -35,8 +34,8 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
-      <body className="font-sans antialiased">
+    <html lang="en" className="dark scroll-smooth">
+      <body className={`${inter.variable} font-sans antialiased`}>
         {children}
         <Analytics />
       </body>
