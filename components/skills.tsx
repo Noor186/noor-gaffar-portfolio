@@ -1,49 +1,52 @@
 "use client"
 
-import { Code2, Database, BarChart3, Cloud, Terminal } from "lucide-react"
+import { Code2, Cpu, Radio, Cloud, Terminal } from "lucide-react"
 import { useEffect, useState, useRef } from "react"
 
 const skillCategories = [
   {
-    title: "Python & Core",
+    title: "Embedded & Microcontrollers",
+    icon: Cpu,
+    skills: [
+      { name: "Arduino", level: 90 },
+      { name: "Raspberry Pi", level: 88 },
+      { name: "C/C++", level: 85 },
+    ],
+  },
+  {
+    title: "IoT Protocols & Communication",
+    icon: Radio,
+    skills: [
+      { name: "MQTT", level: 88 },
+      { name: "WiFi / Bluetooth", level: 85 },
+      { name: "HTTP/REST APIs", level: 82 },
+    ],
+  },
+  {
+    title: "Sensors & Hardware",
     icon: Code2,
     skills: [
-      { name: "Python", level: 90 },
-      { name: "SQL", level: 88 },
-      { name: "OOP", level: 83 },
+      { name: "DHT11/DHT22", level: 90 },
+      { name: "Ultrasonic Sensors", level: 85 },
+      { name: "RFID & NFC", level: 80 },
     ],
   },
   {
-    title: "Data Processing",
-    icon: Database,
-    skills: [
-      { name: "Pandas", level: 85 },
-      { name: "NumPy", level: 82 },
-      { name: "ETL", level: 80 },
-    ],
-  },
-  {
-    title: "Visualization",
-    icon: BarChart3,
-    skills: [
-      { name: "Matplotlib", level: 75 },
-      { name: "Seaborn", level: 72 },
-    ],
-  },
-  {
-    title: "Cloud & Infrastructure",
+    title: "IoT Platforms & Dashboards",
     icon: Cloud,
     skills: [
-      { name: "Cloud Architecture", level: 70 },
-      { name: "Database Management", level: 78 },
+      { name: "Node-RED", level: 85 },
+      { name: "Blynk", level: 82 },
+      { name: "Telegram Bot Integration", level: 78 },
     ],
   },
   {
-    title: "Tools & Platforms",
+    title: "Development Tools",
     icon: Terminal,
     skills: [
-      { name: "Linux", level: 78 },
       { name: "Git / GitHub", level: 85 },
+      { name: "Linux & Command Line", level: 80 },
+      { name: "Python for IoT", level: 82 },
     ],
   },
 ]
@@ -119,7 +122,7 @@ export function Skills() {
             Technical Skills
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
-            Core tools and technologies I use to build reliable data infrastructure.
+            Technologies and platforms I use to build connected IoT systems and smart solutions.
           </p>
         </div>
 

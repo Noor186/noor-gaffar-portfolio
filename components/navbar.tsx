@@ -2,13 +2,12 @@
 
 import { useState, useEffect } from "react"
 import Link from "next/link"
-import { Menu, X, Download, Moon, Sun, User, Briefcase, FolderOpen, GraduationCap, Mail, Wrench, Settings } from "lucide-react"
+import { Menu, X, Download, Moon, Sun, User, Briefcase, FolderOpen, GraduationCap, Mail, Wrench } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { useTheme } from "next-themes"
 
 const navLinks = [
   { name: "Skills", href: "#skills", icon: Wrench },
-  { name: "Services", href: "#services", icon: Settings },
   { name: "Experience", href: "#experience", icon: Briefcase },
   { name: "Projects", href: "#projects", icon: FolderOpen },
   { name: "Education", href: "#education", icon: GraduationCap },
