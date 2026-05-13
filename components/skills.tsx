@@ -19,7 +19,7 @@ const skillCategories = [
     skills: [
       { name: "MQTT", level: 88 },
       { name: "WiFi / Bluetooth", level: 85 },
-      { name: "HTTP/REST APIs", level: 82 },
+      { name: "CoAP", level: 82 },
     ],
   },
   {
@@ -46,7 +46,7 @@ const skillCategories = [
     skills: [
       { name: "Git / GitHub", level: 85 },
       { name: "Linux & Command Line", level: 80 },
-      { name: "Python for IoT", level: 82 },
+      { name: "Node.js", level: 82 },
     ],
   },
 ]
