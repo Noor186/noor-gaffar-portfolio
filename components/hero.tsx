@@ -73,7 +73,7 @@ export function Hero() {
                 </Link>
               </Button>
               <Button asChild variant="outline" size="lg" className="w-full sm:w-auto text-base px-8 hover:scale-105 transition-transform">
-                <a href="/Noor_Gaffar_CV.pdf" download="Noor_Gaffar_CV.pdf" target="_blank" rel="noopener noreferrer">
+                <a href="/Noor_Gaffar_CV.pdf" target="_blank" rel="noopener noreferrer">
                   <Download className="w-5 h-5 mr-2" />
                   Download CV
                 </a>
