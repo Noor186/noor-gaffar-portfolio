@@ -5,14 +5,15 @@ import { useEffect, useState, useRef } from "react"
 
 const experiences = [
   {
-    title: "Data Engineering Trainee",
-    company: "DEPI – Digital Egypt Pioneers Initiative",
-    period: "Dec 2025 – Present",
+    title: "IoT System Developer Internship",
+    company: "Samsung Innovation Campus (SIC)",
+    period: "Aug 2025 – Oct 2025",
     current: true,
     description: [
-      "Applied SQL and Python (Pandas, NumPy) to analyze datasets and build data pipelines for practical use cases.",
-      "Building proficiency in data visualization using Matplotlib and Seaborn.",
-      "Gained hands-on experience in database management and ETL processes.",
+      "Designed and implemented IoT systems using Raspberry Pi and Electronics.",
+      "Built sensor integration and IoT communication protocols (MQTT, HTTP, CoAP).",
+      "Applied Node.js and Node RED to build dashboards and Telegram bot for alerts.",
+      "Used Linux and Git/GitHub for version control and platforms like Blynk.",
     ],
   },
   {
@@ -21,9 +22,9 @@ const experiences = [
     period: "Jul 2024 – Sep 2024",
     current: false,
     description: [
-      "Gained proficiency in Python, OOP, and Pandas for data manipulation.",
-      "Applied JSON for data handling and structured data processing.",
-      "Developed practical data processing skills applicable to real-world engineering tasks.",
+      "Gained proficiency in Python, OOP, Tkinter (GUI), JSON and Pandas.",
+      "Built a social media app and online shopping website.",
+      "Developed practical programming skills applicable to real-world engineering tasks.",
     ],
   },
 ]

@@ -2,13 +2,12 @@
 
 import { useState, useEffect } from "react"
 import Link from "next/link"
-import { Menu, X, Download, Moon, Sun, User, Briefcase, FolderOpen, GraduationCap, Mail, Wrench, Settings } from "lucide-react"
+import { Menu, X, Download, Moon, Sun, User, Briefcase, FolderOpen, GraduationCap, Mail, Wrench } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { useTheme } from "next-themes"
 
 const navLinks = [
   { name: "Skills", href: "#skills", icon: Wrench },
-  { name: "Services", href: "#services", icon: Settings },
   { name: "Experience", href: "#experience", icon: Briefcase },
   { name: "Projects", href: "#projects", icon: FolderOpen },
   { name: "Education", href: "#education", icon: GraduationCap },
@@ -98,7 +97,7 @@ export function Navbar() {
             )}
             
             <Button asChild size="sm" className="ml-4 hover:scale-105 transition-transform">
-              <a href="/Noor_Gaffar_CV.pdf" download>
+              <a href="https://1drv.ms/b/c/bccc2abca4e7a718/IQAPtmawj4yxQr6ywQN88_c_ARUSpyC_MsKuGdxRN_ariTg?e=fyyvl5" target="_blank" rel="noopener noreferrer">
                 <Download className="w-4 h-4 mr-2" />
                 Download CV
               </a>
@@ -151,7 +150,7 @@ export function Navbar() {
               </Link>
             ))}
             <Button asChild className="w-full mt-4">
-              <a href="/Noor_Gaffar_CV.pdf" download>
+              <a href="https://1drv.ms/b/c/bccc2abca4e7a718/IQAPtmawj4yxQr6ywQN88_c_ARUSpyC_MsKuGdxRN_ariTg?e=fyyvl5" target="_blank" rel="noopener noreferrer">
                 <Download className="w-4 h-4 mr-2" />
                 Download CV
               </a>

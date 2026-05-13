@@ -7,7 +7,7 @@ import Link from "next/link"
 import Image from "next/image"
 import { useEffect, useState } from "react"
 
-const techBadges = ["Python", "SQL", "ETL", "Pandas", "NumPy", "Matplotlib"]
+const techBadges = ["Raspberry Pi", "Arduino", "MQTT", "IoT", "Node-RED", "Sensors"]
 
 export function Hero() {
   const [isVisible, setIsVisible] = useState(false)
@@ -45,10 +45,10 @@ export function Hero() {
               Noor Gaffar
             </h1>
             <h2 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-primary mb-6">
-              Data Engineer
+              IoT Engineer
             </h2>
             <p className="text-muted-foreground text-lg max-w-xl mx-auto lg:mx-0 mb-8 leading-relaxed">
-              I build efficient data pipelines and transform raw data into clean, reliable insights using Python and SQL.
+              I design and build intelligent IoT solutions that connect the physical and digital worlds, from smart sensors to real-time monitoring systems.
             </p>
             
             {/* Tech badges with stagger animation */}
@@ -73,7 +73,7 @@ export function Hero() {
                 </Link>
               </Button>
               <Button asChild variant="outline" size="lg" className="w-full sm:w-auto text-base px-8 hover:scale-105 transition-transform">
-                <a href="/Noor_Gaffar_CV.pdf" download>
+                <a href="https://1drv.ms/b/c/bccc2abca4e7a718/IQAPtmawj4yxQr6ywQN88_c_ARUSpyC_MsKuGdxRN_ariTg?e=fyyvl5" target="_blank" rel="noopener noreferrer">
                   <Download className="w-5 h-5 mr-2" />
                   Download CV
                 </a>
@@ -125,9 +125,9 @@ export function Hero() {
                 <span className="text-sm font-bold">GPA 3.9/4.0</span>
               </div>
               
-              {/* Data Engineer badge */}
+              {/* IoT Engineer badge */}
               <div className="absolute top-8 -left-4 bg-card border border-border px-4 py-2 rounded-xl shadow-lg animate-float" style={{ animationDelay: '0.5s' }}>
-                <p className="text-xs font-semibold text-primary">Data Engineer</p>
+                <p className="text-xs font-semibold text-primary">IoT Engineer</p>
               </div>
               
               {/* Decorative elements */}
