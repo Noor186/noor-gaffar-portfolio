@@ -1,9 +1,10 @@
-/** @type {import('next').NextConfig} */
 const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  output: 'export',   
+  output: 'export',
+  basePath: '/noor-gaffar-portfolio',
+  assetPrefix: '/noor-gaffar-portfolio',
   images: {
     unoptimized: true,
   },
