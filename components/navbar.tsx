@@ -97,7 +97,7 @@ export function Navbar() {
             )}
             
             <Button asChild size="sm" className="ml-4 hover:scale-105 transition-transform">
-              <a href="https://1drv.ms/b/c/bccc2abca4e7a718/IQAPtmawj4yxQr6ywQN88_c_ARUSpyC_MsKuGdxRN_ariTg?e=fyyvl5" target="_blank" rel="noopener noreferrer">
+              <a href="/Noor_Gaffar_CV.pdf" download>
                 <Download className="w-4 h-4 mr-2" />
                 Download CV
               </a>
@@ -150,7 +150,7 @@ export function Navbar() {
               </Link>
             ))}
             <Button asChild className="w-full mt-4">
-              <a href="https://1drv.ms/b/c/bccc2abca4e7a718/IQAPtmawj4yxQr6ywQN88_c_ARUSpyC_MsKuGdxRN_ariTg?e=fyyvl5" target="_blank" rel="noopener noreferrer">
+              <a href="/Noor_Gaffar_CV.pdf" download>
                 <Download className="w-4 h-4 mr-2" />
                 Download CV
               </a>
