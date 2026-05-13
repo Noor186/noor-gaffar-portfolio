@@ -1,4 +1,3 @@
-/** @type {import('next').NextConfig} */
 const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
@@ -7,5 +6,4 @@ const nextConfig = {
     unoptimized: true,
   },
 }
-
 export default nextConfig
