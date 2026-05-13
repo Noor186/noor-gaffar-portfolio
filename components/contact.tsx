@@ -65,7 +65,7 @@ export function Contact() {
             {"Let's Connect"}
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
-            Open to internship opportunities, collaborations, and data engineering conversations.
+            Open to internship opportunities, collaborations, and IoT engineering conversations.
           </p>
         </div>
 
