@@ -7,7 +7,7 @@ import './globals.css'
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
-  title: 'Noor Gaffar | Data Engineer',
+  title: 'Noor Gaffar | IoT Engineer',
   description: 'Portfolio of Noor Gaffar - Data Engineer specializing in IoT, Python, and Data Pipelines',
   generator: 'v0.app',
   icons: {
