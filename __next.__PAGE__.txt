@@ -1,13 +1,13 @@
 1:"$Sreact.fragment"
-2:I[63780,["/_next/static/chunks/141lljft-1tp4.js","/_next/static/chunks/0g7_qao2agi-..js","/_next/static/chunks/0g46wbjmbp444.js"],"Navbar"]
-3:I[85161,["/_next/static/chunks/141lljft-1tp4.js","/_next/static/chunks/0g7_qao2agi-..js","/_next/static/chunks/0g46wbjmbp444.js"],"Hero"]
-4:I[14255,["/_next/static/chunks/141lljft-1tp4.js","/_next/static/chunks/0g7_qao2agi-..js","/_next/static/chunks/0g46wbjmbp444.js"],"Skills"]
-5:I[66082,["/_next/static/chunks/141lljft-1tp4.js","/_next/static/chunks/0g7_qao2agi-..js","/_next/static/chunks/0g46wbjmbp444.js"],"Experience"]
-6:I[80976,["/_next/static/chunks/141lljft-1tp4.js","/_next/static/chunks/0g7_qao2agi-..js","/_next/static/chunks/0g46wbjmbp444.js"],"Projects"]
-7:I[71759,["/_next/static/chunks/141lljft-1tp4.js","/_next/static/chunks/0g7_qao2agi-..js","/_next/static/chunks/0g46wbjmbp444.js"],"Education"]
-8:I[15751,["/_next/static/chunks/141lljft-1tp4.js","/_next/static/chunks/0g7_qao2agi-..js","/_next/static/chunks/0g46wbjmbp444.js"],"Contact"]
-9:I[76841,["/_next/static/chunks/141lljft-1tp4.js","/_next/static/chunks/0g7_qao2agi-..js","/_next/static/chunks/0g46wbjmbp444.js"],"Footer"]
-a:I[5159,["/_next/static/chunks/141lljft-1tp4.js","/_next/static/chunks/0g7_qao2agi-..js"],"OutletBoundary"]
+2:I[63780,["/noor-gaffar-portfolio/_next/static/chunks/141lljft-1tp4.js","/noor-gaffar-portfolio/_next/static/chunks/0g7_qao2agi-..js","/noor-gaffar-portfolio/_next/static/chunks/0v.zn3bn41c8s.js"],"Navbar"]
+3:I[85161,["/noor-gaffar-portfolio/_next/static/chunks/141lljft-1tp4.js","/noor-gaffar-portfolio/_next/static/chunks/0g7_qao2agi-..js","/noor-gaffar-portfolio/_next/static/chunks/0v.zn3bn41c8s.js"],"Hero"]
+4:I[14255,["/noor-gaffar-portfolio/_next/static/chunks/141lljft-1tp4.js","/noor-gaffar-portfolio/_next/static/chunks/0g7_qao2agi-..js","/noor-gaffar-portfolio/_next/static/chunks/0v.zn3bn41c8s.js"],"Skills"]
+5:I[66082,["/noor-gaffar-portfolio/_next/static/chunks/141lljft-1tp4.js","/noor-gaffar-portfolio/_next/static/chunks/0g7_qao2agi-..js","/noor-gaffar-portfolio/_next/static/chunks/0v.zn3bn41c8s.js"],"Experience"]
+6:I[80976,["/noor-gaffar-portfolio/_next/static/chunks/141lljft-1tp4.js","/noor-gaffar-portfolio/_next/static/chunks/0g7_qao2agi-..js","/noor-gaffar-portfolio/_next/static/chunks/0v.zn3bn41c8s.js"],"Projects"]
+7:I[71759,["/noor-gaffar-portfolio/_next/static/chunks/141lljft-1tp4.js","/noor-gaffar-portfolio/_next/static/chunks/0g7_qao2agi-..js","/noor-gaffar-portfolio/_next/static/chunks/0v.zn3bn41c8s.js"],"Education"]
+8:I[15751,["/noor-gaffar-portfolio/_next/static/chunks/141lljft-1tp4.js","/noor-gaffar-portfolio/_next/static/chunks/0g7_qao2agi-..js","/noor-gaffar-portfolio/_next/static/chunks/0v.zn3bn41c8s.js"],"Contact"]
+9:I[76841,["/noor-gaffar-portfolio/_next/static/chunks/141lljft-1tp4.js","/noor-gaffar-portfolio/_next/static/chunks/0g7_qao2agi-..js","/noor-gaffar-portfolio/_next/static/chunks/0v.zn3bn41c8s.js"],"Footer"]
+a:I[5159,["/noor-gaffar-portfolio/_next/static/chunks/141lljft-1tp4.js","/noor-gaffar-portfolio/_next/static/chunks/0g7_qao2agi-..js"],"OutletBoundary"]
 b:"$Sreact.suspense"
-0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"className":"min-h-screen bg-background","children":[["$","$L2",null,{}],["$","$L3",null,{}],["$","$L4",null,{}],["$","$L5",null,{}],["$","$L6",null,{}],["$","$L7",null,{}],["$","$L8",null,{}],["$","$L9",null,{}]]}],[["$","script","script-0",{"src":"/_next/static/chunks/0g46wbjmbp444.js","async":true}]],["$","$La",null,{"children":["$","$b",null,{"name":"Next.MetadataOutlet","children":"$@c"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"OjTYuZujY8EAx8esqstoQ"}
+0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"className":"min-h-screen bg-background","children":[["$","$L2",null,{}],["$","$L3",null,{}],["$","$L4",null,{}],["$","$L5",null,{}],["$","$L6",null,{}],["$","$L7",null,{}],["$","$L8",null,{}],["$","$L9",null,{}]]}],[["$","script","script-0",{"src":"/noor-gaffar-portfolio/_next/static/chunks/0v.zn3bn41c8s.js","async":true}]],["$","$La",null,{"children":["$","$b",null,{"name":"Next.MetadataOutlet","children":"$@c"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"saxC8mMAc_cYeRO2VjTrQ"}
 c:null
